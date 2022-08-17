@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Indie+Flower&family=Pacifico&family=Permanent+Marker&display=swap');
 
-/*media querry*/
 @media (max-width: 1160px) and (min-width:1101px){
  
     header h1{
@@ -55,7 +54,9 @@
     }
 }
 
-/* MENU SANDUICHE */
+/*============
+MENU SANDUICHE
+==============*/
 @media (max-width:790px) and (min-width:731px){
    
     header{ 

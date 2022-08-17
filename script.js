@@ -1,3 +1,4 @@
+//variaveis
 const btnSand = document.getElementById('btn-menu-sand');
 const menu = document.getElementById('ul-menu');
 
@@ -19,13 +20,14 @@ btnSand.addEventListener("click", function(){
     }
 });
 
+//Se o menu estiver aberto, ele fecha caso algum elemento fora do menu seja clicado.
 menu.addEventListener("click", fechaMenu);
 quemSomos.addEventListener("click", fechaMenu);
 cardapio.addEventListener("click", fechaMenu);
 depoimentos.addEventListener("click", fechaMenu);
 nossasRedes.addEventListener("click", fechaMenu);
 
-
+//fecha o menu, caso esteja aberto.
 function fechaMenu(){
     if(cont == true){
         menu.style.display ='none';
