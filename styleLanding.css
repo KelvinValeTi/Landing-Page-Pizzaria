@@ -132,13 +132,20 @@ header h1{
     text-align:center;
     font-size:18pt;
     font-family: 'Balsamiq Sans', cursive, sans-serif;
+   
+    display:grid;
+    grid-template-rows: 300px 180px 100px;
+}
+
+#grid-cardapio ul{
+    padding-top:20px;
 }
 
 #grid-cardapio li{
     list-style: none;
 }
 #grid-cardapio button{
-    font-size:18pt;
+    font-size:22pt;
     font-family: 'Balsamiq Sans', cursive, sans-serif;
     padding:10px;
     margin:10px;
@@ -183,6 +190,7 @@ header h1{
     text-align:right;
     padding:20px;
 }
+
 /*rodape*/
 footer{
     width:auto;
@@ -191,6 +199,7 @@ footer{
 }
 
 #nossas-redes h1{
+    padding-top:20px;
     font-size:30pt;
     font-family: 'Balsamiq Sans', cursive, sans-serif;
     text-align:center;
@@ -253,18 +262,28 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
     #quem-somos h1{
-        font-size: 50pt;
+        font-size: 45pt;
     }
     #quem-somos p{
-        font-size: 20pt;
+        font-size: 19pt;
     }
     header h1{
         font-size:16pt;
     }   
+    #depoimentos{
+        font-size:17pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
 }
 
 /* MENU SANDUICHE */
-@media (max-width:790px){
+@media (max-width:790px) and (min-width:731px){
    
     header{ 
         display: flex;
@@ -279,6 +298,137 @@ footer{
     
     #nav-bar ul{
         display:none;
+    }
+
+    #grid-cardapio{
+        grid-template-columns: 1fr 1fr;
+    }
+    #quem-somos h1{
+        font-size: 45pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+    
+    #depoimentos{
+        font-size:17pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+
+    /*menu sanduiche*/
+    #btn-menu-sand{
+        display:block;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:730px) and (min-width:611px){
+    header{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    header h1{
+        display:none;
+    }
+    
+    #nav-bar ul{
+        display:none;
+    }
+
+    #grid-cardapio{
+        grid-template-columns: 1fr;
+    }
+    #quem-somos h1{
+        font-size: 38pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+
+    #depoimentos{
+        font-size:17pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+
+    #nossas-redes h1{
+        font-size:20pt;
+    }
+    #nossas-redes li{
+        font-size:18pt;
+    }
+    #nossas-redes p{
+        text-align: right;
+        font-size: 10pt;
+    }
+
+    /*menu sanduiche*/
+    #btn-menu-sand{
+        display:block;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:610px){
+    header{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    header h1{
+        display:none;
+    }
+    
+    #nav-bar ul{
+        display:none;
+    }
+
+    #grid-cardapio{
+        grid-template-columns: 1fr;
+    }
+    #quem-somos h1{
+        font-size: 31pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+
+    #depoimentos{
+        font-size:15pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+
+    #nossas-redes h1{
+        font-size:16pt;
+    }
+    #nossas-redes li{
+        font-size:15pt;
+    }
+    #nossas-redes p{
+        text-align: right;
+        font-size: 10pt;
     }
 
     /*menu sanduiche*/

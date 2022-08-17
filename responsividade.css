@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Indie+Flower&family=Pacifico&family=Permanent+Marker&display=swap');
+
+/*media querry*/
+@media (max-width: 1160px) and (min-width:1101px){
+ 
+    header h1{
+        font-size:20pt;
+    }
+
+    #nav-bar li{
+        padding-top:10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #nav-bar li:hover{
+        background-color:rgb(241, 188, 49);
+        padding:10px;
+    }
+    .nav-link{
+        font-size: 16pt;    
+    }
+}
+@media (max-width:1100px) and (min-width:968px){
+    #quem-somos h1{
+        font-size:60pt;
+     }
+    #quem-somos p{
+        font-size:25pt;
+    }   
+}
+
+@media (max-width:967px) and (min-width:791px){
+    #grid-cardapio{
+        grid-template-columns: 1fr 1fr;
+    }
+    #quem-somos h1{
+        font-size: 45pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+    header h1{
+        font-size:16pt;
+    }   
+    #depoimentos{
+        font-size:17pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+}
+
+/* MENU SANDUICHE */
+@media (max-width:790px) and (min-width:731px){
+   
+    header{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    header h1{
+        display:none;
+    }
+    
+    #nav-bar ul{
+        display:none;
+    }
+
+    #grid-cardapio{
+        grid-template-columns: 1fr 1fr;
+    }
+    #quem-somos h1{
+        font-size: 45pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+    
+    #depoimentos{
+        font-size:17pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+
+    /*menu sanduiche*/
+    #btn-menu-sand{
+        display:block;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:730px) and (min-width:611px){
+    header{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    header h1{
+        display:none;
+    }
+    
+    #nav-bar ul{
+        display:none;
+    }
+
+    #grid-cardapio{
+        grid-template-columns: 1fr;
+    }
+    #quem-somos h1{
+        font-size: 38pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+
+    #depoimentos{
+        font-size:17pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+
+    #nossas-redes h1{
+        font-size:20pt;
+    }
+    #nossas-redes li{
+        font-size:18pt;
+    }
+    #nossas-redes p{
+        text-align: right;
+        font-size: 10pt;
+    }
+
+    /*menu sanduiche*/
+    #btn-menu-sand{
+        display:block;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:610px){
+    header{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    header h1{
+        display:none;
+    }
+    
+    #nav-bar ul{
+        display:none;
+    }
+
+    #grid-cardapio{
+        grid-template-columns: 1fr;
+    }
+    #quem-somos h1{
+        font-size: 31pt;
+    }
+    #quem-somos p{
+        font-size: 19pt;
+    }
+
+    #depoimentos{
+        font-size:15pt;
+    }
+    #mick{
+        margin-left:20px;
+    }
+
+    #salsicha{
+        margin-right:20px;
+    }
+
+    #nossas-redes h1{
+        font-size:16pt;
+    }
+    #nossas-redes li{
+        font-size:15pt;
+    }
+    #nossas-redes p{
+        text-align: right;
+        font-size: 10pt;
+    }
+
+    /*menu sanduiche*/
+    #btn-menu-sand{
+        display:block;
+        padding-left: 20px;
+    }
+}
+
