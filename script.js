@@ -16,7 +16,7 @@ btnSand.addEventListener("click", function(){
         cont = true;
     }else{ 
         menu.style.display ='none';
-        cont= false;  
+        cont= false;
     }
 });
 
